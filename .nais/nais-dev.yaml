@@ -13,13 +13,13 @@ spec:
       rules:
         - application: reops-felgen
           namespace: team-researchops
-        - application: Jamph-Umami-Frontend
+        - application: jamph-umami-frontend-dev
           namespace: team-researchops
-        - application: Jamph-Rag-Api-Umami
+        - application: jamph-rag-api-umami-dev
           namespace: team-researchops
-        - application: Jamph-Ml-Trainer
+        - application: jamph-ml-trainer
           namespace: team-researchops
-        - application: Jamph-Mlflow
+        - application: jamph-mlflow
           namespace: team-researchops
         
   liveness:
