@@ -11,6 +11,6 @@ This repository includes two Dockerfiles:
 
 **Build secure image:**
 ```bash
-docker build -f Dockerfile.build-from-source -t reops-ollama:secure .
+docker build -f Dockerfile.build-from-source -t jamph-ollama:secure .
 ```
 

@@ -2,7 +2,7 @@
 # This Dockerfile builds Ollama from source using a patched Go version (1.24.4+)
 # to mitigate CVE-2025-22871, CVE-2025-47907, CVE-2025-61723
 #
-# Build with: docker build -f Dockerfile.build-from-source -t reops-ollama:secure .
+# Build with: docker build -f Dockerfile.build-from-source -t jamph-ollama:secure .
 
 # Stage 1: Build Ollama from source with patched Go
 # Using Debian-based image for glibc compatibility with Wolfi runtime

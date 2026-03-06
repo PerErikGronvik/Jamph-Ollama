@@ -6,13 +6,13 @@ Denne guiden beskriver hvordan teamet kan kjøre den samme Ollama-versjonen loka
 
 
 ```bash
-docker build -f Dockerfile.build-from-source -t reops-ollama:secure .
+docker build -f Dockerfile.build-from-source -t jamph-ollama:secure .
 ```
 
 ## Kjør lokalt
 
 ```bash
-docker run -p 11434:11434 reops-ollama:secure
+docker run -p 11434:11434 jamph-ollama:secure
 ```
 Ollama er klar når du ser `Ollama is running` i loggen (tar typisk 10–30 sekunder etter oppstart).
 
