@@ -14,3 +14,4 @@ This repository includes two Dockerfiles:
 docker build -f Dockerfile.build-from-source -t jamph-ollama:secure .
 ```
 
+sdfsdf
