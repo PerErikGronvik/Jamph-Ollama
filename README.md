@@ -8,9 +8,10 @@ This repository includes two Dockerfiles:
 - **`Dockerfile.build-from-source`** - Builds Ollama from source with patched Go 1.24.4 (recommended for production)
 
 ### Quick Start
-
+ 
 **Build secure image:**
 ```bash
 docker build -f Dockerfile.build-from-source -t jamph-ollama:secure .
 ```
 
+(reload)
